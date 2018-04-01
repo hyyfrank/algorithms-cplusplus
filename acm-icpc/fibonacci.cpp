@@ -13,7 +13,7 @@ int fibonacci(int n) {
         return n;
     }
     if(memo[n] != 0) {
-        cout << "already calc in array:" << memo[n] << endl;
+//        cout << "already calc in array:" << memo[n] << endl;
         return memo[n];
     }
     return memo[n] = fibonacci(n-1) + fibonacci(n-2);

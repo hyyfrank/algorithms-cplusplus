@@ -1,5 +1,6 @@
 #include <iostream>
 #include "acm-icpc/fibonacci.h"
+#include "acm-icpc/stack.h"
 
 using namespace std;
 int main() {
@@ -7,8 +8,10 @@ int main() {
     cout << "**************fabnacci function********************" << endl;
     int num = 10;
     fibonacci(num);
-//    log(num);
-    cout << "***************end fabnacci function*******************" << endl;
-    //quick sort.
+    log(num);
+    //basic stack.
+    cout << "**************basic stack operation********************" << endl;
+    stackOper();
+
     return 0;
 }
