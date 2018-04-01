@@ -3,6 +3,7 @@
 #include "acm-icpc/stack.h"
 #include "acm-icpc/queue.h"
 #include "acm-icpc/dfs.h"
+#include "acm-icpc/dfs2.h"
 
 using namespace std;
 int main() {
@@ -24,6 +25,8 @@ int main() {
     } else {
         cout << "No!" << endl;
     }
+    cout<< "*****************dfs2 demo**********************"<<endl;
+    cout << "number of the pool is: "<< solve() << endl;
 
     return 0;
 }
