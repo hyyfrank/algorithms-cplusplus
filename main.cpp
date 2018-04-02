@@ -6,6 +6,8 @@
 #include "acm-icpc/dfs2.h"
 #include "acm-icpc/quicksort.h"
 
+
+#include "leecode/array/duplicate.h"
 using namespace std;
 
 int main() {
@@ -48,5 +50,13 @@ int main() {
         cout<< e <<" ";
     cout<< endl;
 
+    cout<< "***********************lee code array duplicate****************************"<<endl;
+
+    vector<int> duplicateA = {6,6,7,10,10,10,10,20};//先排序
+    int number = removeDuplicates3(duplicateA);
+    cout << "after delete, array number is:" << number <<endl;
+    vector<int> duplicateB = {2,2,2,3,3,3,3,3,4,4,4,4,5,6,7};
+    int number2 = removeDuplicates2(duplicateB);
+    cout<< "after deleter, array number is: "<< number2 <<endl;
     return 0;
 }
