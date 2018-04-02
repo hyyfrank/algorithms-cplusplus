@@ -8,6 +8,8 @@
 
 
 #include "leecode/array/duplicate.h"
+#include "leecode/array/findMediaSort.h"
+
 using namespace std;
 
 int main() {
@@ -57,6 +59,15 @@ int main() {
     cout << "after delete, array number is:" << number <<endl;
     vector<int> duplicateB = {2,2,2,3,3,3,3,3,4,4,4,4,5,6,7};
     int number2 = removeDuplicates2(duplicateB);
-    cout<< "after deleter, array number is: "<< number2 <<endl;
+    cout<< "after delete, array number is: "<< number2 <<endl;
+
+
+    cout<< "***********************lee code: find kth number ****************************"<<endl;
+    vector<int> first = {1,2,3,4,5};
+    vector<int> second ={1,3,5,7,9};
+    double re = findMedianSortedArrays(first,second);
+    cout<< "the medium number of arrays is :"<< re << endl;
+
     return 0;
+
 }
