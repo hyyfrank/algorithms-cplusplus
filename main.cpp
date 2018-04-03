@@ -63,8 +63,8 @@ int main() {
 
 
     cout<< "***********************lee code: find kth number ****************************"<<endl;
-    vector<int> first = {1,2,3};
-    vector<int> second ={1,4,7};
+    vector<int> first = {1,2,3,4,5,6};
+    vector<int> second ={1,4,7,2,2};
     double re = findMedianSortedArrays(first,second);
     cout<< "the medium number of arrays is :"<< re << endl;
 
