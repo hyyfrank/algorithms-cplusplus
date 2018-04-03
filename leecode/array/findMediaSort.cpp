@@ -26,7 +26,7 @@ double findMedianSortedArrays(const vector<int>& A, const vector<int>& B) {
     const int m = A.size();
     const int n = B.size();
     int total = m + n;
-    if (total & 0x1)
+    if (total & 0x1) //判断奇数偶数
         return find_kth(A.begin(), m, B.begin(), n, total / 2 + 1);
     else
         return (find_kth(A.begin(), m, B.begin(), n, total / 2)
