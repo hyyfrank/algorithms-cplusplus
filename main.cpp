@@ -10,6 +10,7 @@
 #include "leecode/array/duplicate.h"
 #include "leecode/array/findMediaSort.h"
 #include "leecode/array/rotatedArray.h"
+#include "leecode/array/sumoftwointeger.h"
 
 using namespace std;
 
@@ -80,6 +81,12 @@ int main() {
     cout<< "the num founded with index:"<<itIndex<<endl;
     cout<< "the num founded in duplicate array with index:"<<itIndex2<<endl;
 //    cout<< "the num founded with index:"<<rotIndex<<en、dl;
+
+
+
+    cout<< "***********************lee code: sum of two integer. ****************************"<<endl;
+    int reSumof=getSum(1,2);
+    cout<< "the num two integer:"<<reSumof<<endl;
     return 0;
 
 }
