@@ -11,6 +11,7 @@
 #include "leecode/array/findMediaSort.h"
 #include "leecode/array/rotatedArray.h"
 #include "leecode/array/sumoftwointeger.h"
+#include "leecode/array/TwoSumNumIndex.h"
 
 using namespace std;
 
@@ -87,6 +88,11 @@ int main() {
     cout<< "***********************lee code: sum of two integer. ****************************"<<endl;
     int reSumof=getSum(1,2);
     cout<< "the num two integer:"<<reSumof<<endl;
+
+    cout<< "***********************lee code: sum of two integer index. ****************************"<<endl;
+    vector<int> sumArray={2, 7, 11, 15};
+    vector<int> reSumofNumIndex=twoSumIndex(sumArray, 18);
+    cout<< "the num two integer index is:"<< endl << reSumofNumIndex.at(0)<<endl<<reSumofNumIndex.at(1)<<endl;
     return 0;
 
 }
