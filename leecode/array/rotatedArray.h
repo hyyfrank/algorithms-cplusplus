@@ -10,6 +10,7 @@
 using namespace std;
 
 int rsearch(vector<int>&, int);
+int rsearch2(vector<int>&, int);
 int hyysearch(vector<int>&, int, int, int);
 
 

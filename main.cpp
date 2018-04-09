@@ -72,10 +72,13 @@ int main() {
     cout<< "***********************lee code: find in rotate array. ****************************"<<endl;
 
     vector<int> nums = {6,7,0,1,2,3,4};
+    vector<int> nums2 = {1,3,1,1,1};
 
     int itIndex = rsearch(nums,2);
-//    int rotIndex = hyysearch(num、s,0,7,2);
+    int itIndex2 = rsearch2(nums2,3);
+//    int rotIndex = hyysearch(nums,0,7,2);
     cout<< "the num founded with index:"<<itIndex<<endl;
+    cout<< "the num founded in duplicate array with index:"<<itIndex2<<endl;
 //    cout<< "the num founded with index:"<<rotIndex<<en、dl;
     return 0;
 
