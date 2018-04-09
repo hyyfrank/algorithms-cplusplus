@@ -9,6 +9,7 @@
 
 #include "leecode/array/duplicate.h"
 #include "leecode/array/findMediaSort.h"
+#include "leecode/array/rotatedArray.h"
 
 using namespace std;
 
@@ -68,6 +69,14 @@ int main() {
     double re = findMedianSortedArrays(first,second);
     cout<< "the medium number of arrays is :"<< re << endl;
 
+    cout<< "***********************lee code: find in rotate array. ****************************"<<endl;
+
+    vector<int> nums = {6,7,0,1,2,3,4};
+
+    int itIndex = rsearch(nums,2);
+//    int rotIndex = hyysearch(num、s,0,7,2);
+    cout<< "the num founded with index:"<<itIndex<<endl;
+//    cout<< "the num founded with index:"<<rotIndex<<en、dl;
     return 0;
 
 }
