@@ -18,13 +18,13 @@ int rsearch(vector<int>& nums, int target){
         }
         if(nums[first] < nums[mid]){
             //
-            if(nums[first]<=target && target < nums[mid]){
+            if(nums[first]<=target && target < nums[mid]){// 注意边界=
                 last = mid;
             }else {
                 first = mid +1;
             }
         } else {
-            if (nums[mid] < target && target <= nums[last-1]) {
+            if (nums[mid] < target && target <= nums[last-1]) { //边界=，还要注意这里的last是整个的长度，必须减一，不然超出大小会报错
                 first = mid + 1;
             } else {
                 last = mid;
