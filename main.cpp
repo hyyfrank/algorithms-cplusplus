@@ -92,7 +92,13 @@ int main() {
     cout<< "***********************lee code: sum of two integer index. ****************************"<<endl;
     vector<int> sumArray={2, 7, 11, 15};
     vector<int> reSumofNumIndex=twoSumIndex(sumArray, 18);
-    cout<< "the num two integer index is:"<< endl << reSumofNumIndex.at(0)<<endl<<reSumofNumIndex.at(1)<<endl;
+    cout<< "the num two integer index is:"<< endl;
+    int count = reSumofNumIndex.size();
+
+    for (int i = 0; i < count;i++)
+    {
+        cout << reSumofNumIndex[i] << endl;
+    }
     return 0;
 
 }
