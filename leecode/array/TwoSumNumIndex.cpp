@@ -19,7 +19,7 @@ vector<int> twoSumIndex(vector<int> &nums, int target) {
         if (mapping.find(gap) != mapping.end() && mapping[gap] > i) {
             result.push_back(i + 1);
             result.push_back(mapping[gap] + 1);
-            break;
+            break;//找到就退出.
         } }
     return result;
 }

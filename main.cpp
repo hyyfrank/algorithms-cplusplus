@@ -12,6 +12,8 @@
 #include "leecode/array/rotatedArray.h"
 #include "leecode/array/sumoftwointeger.h"
 #include "leecode/array/TwoSumNumIndex.h"
+#include "leecode/array/removeElement.h"
+#include "leecode/array/ThreeSum.h"
 
 using namespace std;
 
@@ -90,8 +92,8 @@ int main() {
     cout<< "the num two integer:"<<reSumof<<endl;
 
     cout<< "***********************lee code: sum of two integer index. ****************************"<<endl;
-    vector<int> sumArray={2, 7, 11, 15};
-    vector<int> reSumofNumIndex=twoSumIndex(sumArray, 18);
+    vector<int> sumArray={2, 4, 5, 7, 8, 11, 15};
+    vector<int> reSumofNumIndex=twoSumIndex(sumArray, 12);
     cout<< "the num two integer index is:"<< endl;
     int count = reSumofNumIndex.size();
 
@@ -99,6 +101,32 @@ int main() {
     {
         cout << reSumofNumIndex[i] << endl;
     }
+
+    cout<< "***********************lee code: three sum to a certain number. ****************************"<<endl;
+    vector<int> sumArray2={-1, 0, 1, 2, -1, -4};
+    vector<vector<int>> reSumofNumIndex2= threeSum(sumArray2);
+    cout<< "the num two integer index is:"<< endl;
+    int count2 = reSumofNumIndex.size();
+    for(auto i: reSumofNumIndex2){
+        cout<< "(" ;
+        for(auto j : i){
+            cout<<j<<",";
+        }
+        cout<<")"<<endl;
+
+    }
+
+
+    cout<< "***********************lee code: remove element from array. ****************************"<<endl;
+    vector<int> numstest = {1,2,3,5,7,8,9};
+    for(auto i : numstest){
+
+        cout << i << "-";
+    }
+    cout<< endl;
+    int index = removeHyyElement(numstest, 3);
+    cout << "delete element in:"<< index << endl;
+
     return 0;
 
 }
