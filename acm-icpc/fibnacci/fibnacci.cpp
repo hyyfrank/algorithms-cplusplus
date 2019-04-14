@@ -20,8 +20,8 @@ double fibonacci(int n) {
 
 void log1(int n){
     cout << "start log result:"  <<endl;
-    for (int i = 0; i < n; i++) {
-        cout << "fib "<< i+1 << " is: " << fibonacci(i) << endl;
+    for (int i = 1; i < n; i++) {
+        cout << "fib("<< i << ") is: " << fibonacci(i) << endl;
     }
 }
 
@@ -39,7 +39,7 @@ double fibnacciOptimation(int n){
 void log2(int n){
     cout << "start log result:"  <<endl;
     for (int i = 0; i < n; i++) {
-        cout << "fib "<< i+1 << " is: " << fibnacciOptimation(i) << endl;
+        cout << "fib("<< i+1 << ") is: " << fibnacciOptimation(i) << endl;
     }
 }
 
