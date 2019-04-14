@@ -8,6 +8,6 @@
 double fibonacci(int);
 void log1(int);
 void log2(int);
-double fibnacci_optimation(int n);
+double fibnacciOptimation(int n);
 
 #endif //ALGORITHMS_FIBNACCI_H

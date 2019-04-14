@@ -21,12 +21,12 @@ double fibonacci(int n) {
 void log1(int n){
     cout << "start log result:"  <<endl;
     for (int i = 0; i < n; i++) {
-        cout << "fib "<< i+1 << " is: " << fibnacci_optimation(i) << endl;
+        cout << "fib "<< i+1 << " is: " << fibonacci(i) << endl;
     }
 }
 
 //迭代优化O(n)+O(1)
-double fibnacci_optimation(int n){
+double fibnacciOptimation(int n){
     double f = 0;
     double g = 1;
     while (0<n--){
@@ -39,7 +39,7 @@ double fibnacci_optimation(int n){
 void log2(int n){
     cout << "start log result:"  <<endl;
     for (int i = 0; i < n; i++) {
-        cout << "fib "<< i+1 << " is: " << fibnacci_optimation(i) << endl;
+        cout << "fib "<< i+1 << " is: " << fibnacciOptimation(i) << endl;
     }
 }
 
