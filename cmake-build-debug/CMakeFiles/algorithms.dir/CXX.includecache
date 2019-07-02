@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/hyy/github/algorithms/acm-icpc/fibnacci/fibnacci.cpp
-fibnacci.h
-/Users/hyy/github/algorithms/acm-icpc/fibnacci/fibnacci.h
+/Users/hyy/github/algorithms/leecodes/array/duplicate.cpp
+duplicate.h
+/Users/hyy/github/algorithms/leecodes/array/duplicate.h
 iostream
 -
 
-/Users/hyy/github/algorithms/acm-icpc/fibnacci/fibnacci.h
+/Users/hyy/github/algorithms/leecodes/array/duplicate.h
+vector
+-
 

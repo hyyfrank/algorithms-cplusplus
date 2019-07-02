@@ -2,10 +2,6 @@
 // Created by Huang Yanyi on 2019-04-14.
 //
 
-//
-// Created by mac on 2018/4/2.
-//
-
 #include "duplicate.h"
 #include <iostream>
 //简单去重
