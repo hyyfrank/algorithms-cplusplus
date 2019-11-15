@@ -34,4 +34,4 @@ add_executable(
         leecodes/array/TwoSumNumberIndex.h
         leecodes/backtrace/permute.cpp
         leecodes/backtrace/permute.h
-)
+        leecodes/backtrace/sublist.cpp leecodes/backtrace/sublist.h)

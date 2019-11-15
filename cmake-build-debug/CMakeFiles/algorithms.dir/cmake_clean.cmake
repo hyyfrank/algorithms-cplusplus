@@ -14,6 +14,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/algorithms.dir/leecodes/array/ThreeSum.cpp.o"
   "CMakeFiles/algorithms.dir/leecodes/array/TwoSumNumberIndex.cpp.o"
   "CMakeFiles/algorithms.dir/leecodes/backtrace/permute.cpp.o"
+  "CMakeFiles/algorithms.dir/leecodes/backtrace/sublist.cpp.o"
   "algorithms.pdb"
   "algorithms"
 )

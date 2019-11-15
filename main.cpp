@@ -136,7 +136,7 @@ int main() {
 
 
     cout << "result of permute: " << endl;
-    vector<string> permuteArray = {"a","b","c"};
+    vector<string> permuteArray = {"a","b","c","d","e"};
     listPermuteNumbers(permuteArray);
 
 

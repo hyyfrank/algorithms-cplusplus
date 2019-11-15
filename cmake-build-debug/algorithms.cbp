@@ -164,6 +164,12 @@
 		<Unit filename="/Users/hyy/github/algorithms/leecodes/backtrace/permute.h">
 			<Option target="algorithms"/>
 		</Unit>
+		<Unit filename="/Users/hyy/github/algorithms/leecodes/backtrace/sublist.cpp">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/hyy/github/algorithms/leecodes/backtrace/sublist.h">
+			<Option target="algorithms"/>
+		</Unit>
 		<Unit filename="/Users/hyy/github/algorithms/main.cpp">
 			<Option target="algorithms"/>
 		</Unit>

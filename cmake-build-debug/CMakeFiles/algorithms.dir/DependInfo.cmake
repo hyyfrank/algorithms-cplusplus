@@ -18,6 +18,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/hyy/github/algorithms/leecodes/array/rotatedArray.cpp" "/Users/hyy/github/algorithms/cmake-build-debug/CMakeFiles/algorithms.dir/leecodes/array/rotatedArray.cpp.o"
   "/Users/hyy/github/algorithms/leecodes/array/sumoftwointeger.cpp" "/Users/hyy/github/algorithms/cmake-build-debug/CMakeFiles/algorithms.dir/leecodes/array/sumoftwointeger.cpp.o"
   "/Users/hyy/github/algorithms/leecodes/backtrace/permute.cpp" "/Users/hyy/github/algorithms/cmake-build-debug/CMakeFiles/algorithms.dir/leecodes/backtrace/permute.cpp.o"
+  "/Users/hyy/github/algorithms/leecodes/backtrace/sublist.cpp" "/Users/hyy/github/algorithms/cmake-build-debug/CMakeFiles/algorithms.dir/leecodes/backtrace/sublist.cpp.o"
   "/Users/hyy/github/algorithms/main.cpp" "/Users/hyy/github/algorithms/cmake-build-debug/CMakeFiles/algorithms.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

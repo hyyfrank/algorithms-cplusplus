@@ -42,6 +42,8 @@ CMakeFiles/algorithms.dir/leecodes/array/sumoftwointeger.cpp.o: ../leecodes/arra
 CMakeFiles/algorithms.dir/leecodes/backtrace/permute.cpp.o: ../leecodes/backtrace/permute.cpp
 CMakeFiles/algorithms.dir/leecodes/backtrace/permute.cpp.o: ../leecodes/backtrace/permute.h
 
+CMakeFiles/algorithms.dir/leecodes/backtrace/sublist.cpp.o: ../leecodes/backtrace/sublist.cpp
+
 CMakeFiles/algorithms.dir/main.cpp.o: ../acm-icpc/DFS/dfs.h
 CMakeFiles/algorithms.dir/main.cpp.o: ../acm-icpc/DFS2/dfs2.h
 CMakeFiles/algorithms.dir/main.cpp.o: ../acm-icpc/fibnacci/fibnacci.h

@@ -501,6 +501,33 @@ leecodes/backtrace/permute.cpp.s:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/leecodes/backtrace/permute.cpp.s
 .PHONY : leecodes/backtrace/permute.cpp.s
 
+leecodes/backtrace/sublist.o: leecodes/backtrace/sublist.cpp.o
+
+.PHONY : leecodes/backtrace/sublist.o
+
+# target to build an object file
+leecodes/backtrace/sublist.cpp.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/leecodes/backtrace/sublist.cpp.o
+.PHONY : leecodes/backtrace/sublist.cpp.o
+
+leecodes/backtrace/sublist.i: leecodes/backtrace/sublist.cpp.i
+
+.PHONY : leecodes/backtrace/sublist.i
+
+# target to preprocess a source file
+leecodes/backtrace/sublist.cpp.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/leecodes/backtrace/sublist.cpp.i
+.PHONY : leecodes/backtrace/sublist.cpp.i
+
+leecodes/backtrace/sublist.s: leecodes/backtrace/sublist.cpp.s
+
+.PHONY : leecodes/backtrace/sublist.s
+
+# target to generate assembly for a file
+leecodes/backtrace/sublist.cpp.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/leecodes/backtrace/sublist.cpp.s
+.PHONY : leecodes/backtrace/sublist.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -579,6 +606,9 @@ help:
 	@echo "... leecodes/backtrace/permute.o"
 	@echo "... leecodes/backtrace/permute.i"
 	@echo "... leecodes/backtrace/permute.s"
+	@echo "... leecodes/backtrace/sublist.o"
+	@echo "... leecodes/backtrace/sublist.i"
+	@echo "... leecodes/backtrace/sublist.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
