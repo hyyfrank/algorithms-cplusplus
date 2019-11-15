@@ -3,23 +3,34 @@
 //
 #include "permute.h"
 #include <iostream>
-
-vector<vector<int>> result;
 using namespace std;
-int permuteHelper(vector<int>& nums, vector<int>& chosen,int target){
-    for(int item: nums){
-        cout<<item<<","<<endl;
-    }
-    for(int it: chosen){
-        cout<<it<<","<<endl;
-    }
-    cout<<"target is: "<<target<<endl;
 
-  return 0;
+
+
+int permuteHelper(vector<string>& nums,vector<string>& chosen){
+    if(nums.size()==0){
+        cout<<"(";
+        for(string item : chosen)
+        {
+            cout<<item<<",";
+        }
+        cout<<")"<<endl;
+    }
+    for(int i=0;i<nums.size();i++){
+        //select
+        string tmp = nums[i];
+        nums.erase(nums.begin()+i);
+        chosen.push_back(tmp);
+        //expore
+        permuteHelper(nums,chosen);
+        //un-select
+        chosen.erase(chosen.begin()+chosen.size()-1);
+        nums.insert(nums.begin()+i,tmp);
+    }
+
 }
-void listPermuteNumbers(vector<int>& nums,int target){
-    cout<<"test for output"<<endl;
-//    vector<int> chosen;
-//    permuteHelper(nums,chosen,target);
+void listPermuteNumbers(vector<string>& str){
+    vector<string> chosen;
+    permuteHelper(str,chosen);
 }
 

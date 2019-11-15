@@ -10,5 +10,5 @@
 #include <vector>
 using namespace std;
 
-void listPermuteNumbers(vector<int> nums,int target);
+void listPermuteNumbers(vector<string>& str);
 

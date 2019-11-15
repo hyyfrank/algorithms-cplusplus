@@ -474,6 +474,33 @@ leecodes/array/sumoftwointeger.cpp.s:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/leecodes/array/sumoftwointeger.cpp.s
 .PHONY : leecodes/array/sumoftwointeger.cpp.s
 
+leecodes/backtrace/permute.o: leecodes/backtrace/permute.cpp.o
+
+.PHONY : leecodes/backtrace/permute.o
+
+# target to build an object file
+leecodes/backtrace/permute.cpp.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/leecodes/backtrace/permute.cpp.o
+.PHONY : leecodes/backtrace/permute.cpp.o
+
+leecodes/backtrace/permute.i: leecodes/backtrace/permute.cpp.i
+
+.PHONY : leecodes/backtrace/permute.i
+
+# target to preprocess a source file
+leecodes/backtrace/permute.cpp.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/leecodes/backtrace/permute.cpp.i
+.PHONY : leecodes/backtrace/permute.cpp.i
+
+leecodes/backtrace/permute.s: leecodes/backtrace/permute.cpp.s
+
+.PHONY : leecodes/backtrace/permute.s
+
+# target to generate assembly for a file
+leecodes/backtrace/permute.cpp.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/leecodes/backtrace/permute.cpp.s
+.PHONY : leecodes/backtrace/permute.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -549,6 +576,9 @@ help:
 	@echo "... leecodes/array/sumoftwointeger.o"
 	@echo "... leecodes/array/sumoftwointeger.i"
 	@echo "... leecodes/array/sumoftwointeger.s"
+	@echo "... leecodes/backtrace/permute.o"
+	@echo "... leecodes/backtrace/permute.i"
+	@echo "... leecodes/backtrace/permute.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

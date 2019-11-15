@@ -158,6 +158,12 @@
 		<Unit filename="/Users/hyy/github/algorithms/leecodes/array/sumoftwointeger.h">
 			<Option target="algorithms"/>
 		</Unit>
+		<Unit filename="/Users/hyy/github/algorithms/leecodes/backtrace/permute.cpp">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/hyy/github/algorithms/leecodes/backtrace/permute.h">
+			<Option target="algorithms"/>
+		</Unit>
 		<Unit filename="/Users/hyy/github/algorithms/main.cpp">
 			<Option target="algorithms"/>
 		</Unit>
