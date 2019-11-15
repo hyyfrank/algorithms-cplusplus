@@ -9,7 +9,7 @@ using namespace std;
 
 int permuteHelper(vector<string>& nums,vector<string>& chosen){
     for (int j = 0; j < chosen.size(); ++j) {
-        if(chosen.size()==5){
+        if(nums.size()==0){
             if(j==0){
                 cout<<"("<<chosen[j]<<",";
             }else if(j==chosen.size()-1){
