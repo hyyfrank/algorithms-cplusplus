@@ -8,4 +8,5 @@
 #endif //ALGORITHMS_SUBLIST_H
 
 #include "vector"
-void printSubList()
+using namespace std;
+void printSubList(vector<string>&);

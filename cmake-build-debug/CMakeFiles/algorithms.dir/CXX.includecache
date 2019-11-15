@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/hyy/github/algorithms/leecodes/backtrace/permute.cpp
-permute.h
-/Users/hyy/github/algorithms/leecodes/backtrace/permute.h
+/Users/hyy/github/algorithms/leecodes/backtrace/sublist.cpp
 iostream
 -
+sublist.h
+/Users/hyy/github/algorithms/leecodes/backtrace/sublist.h
 
-/Users/hyy/github/algorithms/leecodes/backtrace/permute.h
+/Users/hyy/github/algorithms/leecodes/backtrace/sublist.h
 vector
--
+/Users/hyy/github/algorithms/leecodes/backtrace/vector
 

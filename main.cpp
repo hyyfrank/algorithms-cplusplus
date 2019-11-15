@@ -15,6 +15,7 @@
 #include "leecodes/array/mySqrt.h"
 
 #include "leecodes/backtrace/permute.h"
+#include "leecodes/backtrace/sublist.h"
 
 using namespace std;
 
@@ -132,14 +133,14 @@ int main() {
 //    double sqrtResult = mySqrt().sqrtfunc(6);
 //    cout << "result of sqrt: " << sqrtResult << endl;
 
-    cout << "***********************lee code: 组合数. ****************************" << endl;
-
-
-    cout << "result of permute: " << endl;
-    vector<string> permuteArray = {"a","b","c","d","e"};
-    listPermuteNumbers(permuteArray);
-
-
+//    cout << "***********************lee code: 组合数. ****************************" << endl;
+//    cout << "result of permute: " << endl;
+//    vector<string> permuteArray = {"a","b","c","d","e"};
+//    listPermuteNumbers(permuteArray);
+    cout << "***********************lee code: 回溯-子列表. ****************************" << endl;
+    cout << "result of sublist: " << endl;
+    vector<string> sublist = {"mary","jack","lucy"};
+    printSubList(sublist);
 
     return 0;
 }
