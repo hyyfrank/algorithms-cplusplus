@@ -1,0 +1,8 @@
+//
+// Created by Huang Yanyi on 2019-11-17.
+//
+
+#ifndef ALGORITHMS_101_ISSYMMETRIC_H
+#define ALGORITHMS_101_ISSYMMETRIC_H
+
+#endif //ALGORITHMS_101_ISSYMMETRIC_H

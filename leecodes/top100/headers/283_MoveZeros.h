@@ -1,0 +1,8 @@
+//
+// Created by Huang Yanyi on 2019-11-17.
+//
+
+#ifndef ALGORITHMS_283_MOVEZEROS_H
+#define ALGORITHMS_283_MOVEZEROS_H
+
+#endif //ALGORITHMS_283_MOVEZEROS_H

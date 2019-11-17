@@ -1,0 +1,8 @@
+//
+// Created by Huang Yanyi on 2019-11-17.
+//
+
+#ifndef ALGORITHMS_73_CLIMBSTAIRS_H
+#define ALGORITHMS_73_CLIMBSTAIRS_H
+
+#endif //ALGORITHMS_73_CLIMBSTAIRS_H

@@ -1,0 +1,8 @@
+//
+// Created by Huang Yanyi on 2019-11-17.
+//
+
+#ifndef ALGORITHMS_234_ISPALINDROME_H
+#define ALGORITHMS_234_ISPALINDROME_H
+
+#endif //ALGORITHMS_234_ISPALINDROME_H

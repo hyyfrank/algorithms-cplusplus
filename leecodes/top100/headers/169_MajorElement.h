@@ -1,0 +1,8 @@
+//
+// Created by Huang Yanyi on 2019-11-17.
+//
+
+#ifndef ALGORITHMS_169_MAJORELEMENT_H
+#define ALGORITHMS_169_MAJORELEMENT_H
+
+#endif //ALGORITHMS_169_MAJORELEMENT_H

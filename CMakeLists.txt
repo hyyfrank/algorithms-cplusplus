@@ -35,4 +35,35 @@ add_executable(
         leecodes/backtrace/permute.cpp
         leecodes/backtrace/permute.h
         leecodes/backtrace/sublist.cpp
-        leecodes/backtrace/sublist.h)
+        leecodes/backtrace/sublist.h
+        leecodes/top100/EASY/617_MergeBinaryTree.cpp
+        leecodes/top100/headers/617_MergeBinaryTree.h
+        leecodes/top100/EASY/461_HanmingDistance.cpp
+        leecodes/top100/headers/461_HanmingDistance.h
+        leecodes/top100/EASY/226_ReverseBinaryTree.cpp
+        leecodes/top100/headers/226_ReverseBinaryTree.h
+        leecodes/top100/EASY/206_ReverseLinkedList.cpp
+        leecodes/top100/headers/206_ReverseLinkedList.h
+        leecodes/top100/EASY/136_OneTimeNumber.cpp
+        leecodes/top100/headers/136_OneTimeNumber.h
+        leecodes/top100/EASY/169_MajorElement.cpp
+        leecodes/top100/headers/169_MajorElement.h
+        leecodes/top100/EASY/21_MergeSortedLinkedList.cpp
+        leecodes/top100/headers/21_MergeSortedLinkedList.h
+        leecodes/top100/EASY/283_MoveZeros.cpp
+        leecodes/top100/headers/283_MoveZeros.h
+        leecodes/top100/EASY/538_ConvertBST.cpp
+        leecodes/top100/headers/538_ConvertBST.h
+        leecodes/top100/EASY/448_FindDisappearedNumbers.cpp
+        leecodes/top100/headers/448_FindDisappearedNumbers.h
+        leecodes/top100/EASY/437_PathSum.cpp
+        leecodes/top100/headers/437_PathSum.h
+        leecodes/top100/EASY/121_MaxStockProfit.cpp
+        leecodes/top100/headers/121_MaxStockProfit.h
+        leecodes/top100/EASY/155_MinStack.cpp
+        leecodes/top100/headers/155_MinStack.h
+        leecodes/top100/EASY/160_GetIntersectionNode.cpp
+        leecodes/top100/headers/160_GetIntersectionNode.h
+        leecodes/top100/EASY/101_IsSymmetric.cpp
+        leecodes/top100/headers/101_IsSymmetric.h
+        leecodes/top100/EASY/53_MaxSubArray.cpp leecodes/top100/headers/53_MaxSubArray.h leecodes/top100/EASY/73_ClimbStairs.cpp leecodes/top100/headers/73_ClimbStairs.h leecodes/top100/EASY/1_TwoSum.cpp leecodes/top100/headers/1_TwoSum.h leecodes/top100/EASY/543_DiameterOfBinaryTree.cpp leecodes/top100/headers/543_DiameterOfBinaryTree.h leecodes/top100/EASY/141_CycleLinkedList.cpp leecodes/top100/headers/141_CycleLinkedList.h leecodes/top100/EASY/198_Rob.cpp leecodes/top100/headers/198_Rob.h leecodes/top100/EASY/20_ValidBrackets.cpp leecodes/top100/headers/20_ValidBrackets.h leecodes/top100/EASY/234_IsPalindrome.cpp leecodes/top100/headers/234_IsPalindrome.h leecodes/top100/EASY/581_FindUnsortedSubarray.cpp leecodes/top100/headers/581_FindUnsortedSubarray.h)
