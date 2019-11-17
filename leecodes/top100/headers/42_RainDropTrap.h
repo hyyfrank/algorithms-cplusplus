@@ -1,0 +1,8 @@
+//
+// Created by Huang Yanyi on 2019-11-17.
+//
+
+#ifndef ALGORITHMS_42_RAINDROPTRAP_H
+#define ALGORITHMS_42_RAINDROPTRAP_H
+
+#endif //ALGORITHMS_42_RAINDROPTRAP_H

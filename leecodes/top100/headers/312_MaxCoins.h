@@ -1,0 +1,8 @@
+//
+// Created by Huang Yanyi on 2019-11-17.
+//
+
+#ifndef ALGORITHMS_312_MAXCOINS_H
+#define ALGORITHMS_312_MAXCOINS_H
+
+#endif //ALGORITHMS_312_MAXCOINS_H
