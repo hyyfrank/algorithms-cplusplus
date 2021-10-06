@@ -1,5 +1,6 @@
 class Solution {
 public:
+// 这题也难的
     int shortestSubarray(vector<int>& nums, int K) {
         int N = nums.size(), res = N + 1;
         deque<int> d;
